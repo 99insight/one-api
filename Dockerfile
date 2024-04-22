@@ -1,6 +1,8 @@
 FROM node:16 as builder
 
 WORKDIR /web
+
+RUN mkdir -p build
 COPY ./VERSION .
 COPY ./web .
 

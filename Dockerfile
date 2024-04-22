@@ -4,7 +4,7 @@ WORKDIR /web
 COPY ./VERSION .
 COPY ./web .
 
-RUN rm -rf ./web/build/*
+# RUN rm -rf ./web/build/*
 
 WORKDIR /web/default
 RUN npm install

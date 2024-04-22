@@ -82,8 +82,8 @@ const typeConfig = {
         "qwen-max",
         "qwen-max-longcontext",
         "text-embedding-v1",
-        "qwen-1.5-32b-Chat",
-        "qwen-1.5-72b-Chat"
+        "qwen1.5-32b-chat",
+        "qwen1.5-72b-chat"
       ],
     },
     prompt: {

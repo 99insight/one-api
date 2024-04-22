@@ -72,7 +72,7 @@ const EditChannel = (props) => {
                     localModels = ['ERNIE-Bot', 'ERNIE-Bot-turbo', 'ERNIE-Bot-4', 'Embedding-V1'];
                     break;
                 case 17:
-                    localModels = ["qwen-turbo", "qwen-plus", "qwen-max", "qwen-max-longcontext", 'text-embedding-v1', "qwen-1.5-32b-Chat", "qwen-1.5-72b-Chat"];
+                    localModels = ["qwen-turbo", "qwen-plus", "qwen-max", "qwen-max-longcontext", 'text-embedding-v1', "qwen1.5-32b-chat", "qwen1.5-72b-chat"];
                     break;
                 case 16:
                     localModels = ['chatglm_pro', 'chatglm_std', 'chatglm_lite'];
